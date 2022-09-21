@@ -1,0 +1,12 @@
+{
+  "radii": {
+    "none": {
+      "value": "0",
+      "type": "dimension"
+    },
+    "sm": {
+      "value": "8px",
+      "type": "dimension"
+    }
+  }
+}

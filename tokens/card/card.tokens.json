@@ -1,0 +1,28 @@
+{
+  "card": {
+    "border": {
+      "radius": {
+        "mobile": {
+          "value": "{radii.none}",
+          "type": "dimension"
+        },
+        "desktop": {
+          "value": "{radii.sm}",
+          "type": "dimension"
+        }
+      }
+    },
+    "heading": {
+      "color": {
+        "value": "{color.font.base}",
+        "type": "color"
+      }
+    },
+    "text": {
+      "color": {
+        "value": "{color.font.tertiary}",
+        "type": "color"
+      }
+    }
+  }
+}
