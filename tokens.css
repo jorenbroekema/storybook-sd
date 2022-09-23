@@ -1,0 +1,21 @@
+/**
+ * Do not edit directly
+ * Generated on Fri, 23 Sep 2022 13:20:28 GMT
+ */
+
+:root {
+  --sd-card-border-radius-mobile: 0;
+  --sd-card-border-radius-desktop: 8px;
+  --sd-card-heading-color: #ff0000;
+  --sd-card-text-color: #111111;
+  --sd-color-base-gray-light: #cccccc;
+  --sd-color-base-gray-medium: #999999;
+  --sd-color-base-gray-dark: #111111;
+  --sd-color-base-red: #ff0000;
+  --sd-color-base-green: #00ff00;
+  --sd-color-font-base: #ff0000;
+  --sd-color-font-secondary: #00ff00;
+  --sd-color-font-tertiary: #111111;
+  --sd-radii-none: 0;
+  --sd-radii-sm: 8px;
+}

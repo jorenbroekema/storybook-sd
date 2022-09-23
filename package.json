@@ -6,7 +6,8 @@
   "main": "index.js",
   "scripts": {
     "start": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "tokens": "style-dictionary build",
+    "build": "npm run tokens && build-storybook"
   },
   "keywords": [],
   "author": "",
