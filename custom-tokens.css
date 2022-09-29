@@ -1,0 +1,17 @@
+/**
+ * Everything should resolve to #ffffff
+ * except for the last two, these ones are to test resolving variables inside color values like rgb()
+ * In Figma we should get some color tokens:
+ *   - 5 tokens with #ffffff
+ *   - 1 tokens with rgb(255,0,0)
+ */
+
+:root {
+  --foo: #ffffff;
+  --bar: var(--foo);
+  --qux: var(--bar);
+  --something: var(--else, var(--bar));
+  --another: var(--one, var(--something));
+  --r: 255;
+  --rgb: var(--whatever, rgb(var(--r), 0, 0));
+}
