@@ -14,4 +14,13 @@
   --another: var(--one, var(--something));
   --r: 255;
   --rgb: var(--whatever, rgb(var(--r), 0, 0));
+  --hsl: hsl(250, 75%, 50%);
+  --hsla: hsla(30deg, 75%, 50%, 0.8);
+  --hsla-rad: hsla(3.14rad, 75%, 50%, 0.8);
+  --hsl-turn: hsla(4.15turn, 75%, 50%, 0.8);
+  --hsl-grad: hsla(0.35grad, 75%, 50%, 0.8);
+  --yellow-rgb: rgb(255, 255, 0);
+  --yellow-rgba: rgba(255, 255, 0, 0.3);
+  --name-one: lightsalmon;
+  --name-two: transparent;
 }
