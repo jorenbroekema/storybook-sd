@@ -21,6 +21,12 @@
   --hsl-grad: hsla(0.35grad, 75%, 50%, 0.8);
   --yellow-rgb: rgb(255, 255, 0);
   --yellow-rgba: rgba(255, 255, 0, 0.3);
+  --hwb: hwb(130 20% 40%);
+  --hwba: hwb(130 20% 40% / 0.6);
+  --lch: lch(60% 100 190);
+  --lcha: lch(60% 100 190 / 0.6);
+  --lab: lab(70% 80 15);
+  --laba: lab(70% 80 15 / 0.6);
   --name-one: lightsalmon;
   --name-two: transparent;
 }
